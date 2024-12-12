@@ -39,29 +39,21 @@ function MIDIDrumHit(message) {
         return;
     }
     if (note == 36) {
-
         drum = document.getElementById('kick');
-        if(drum.classList.contains("playing")) return;
-        drum.classList.add("playing");
         justPressed(drum);
         new Audio(`sounds/${drum.id}.wav`).play();
-        setTimeout(()=>drum.classList.remove("playing"), 30);
+        
     }
     if (note == 37) {
         drum = document.getElementById('snare');
-        if(drum.classList.contains("playing")) return;
-        drum.classList.add("playing");
         justPressed(drum);
         new Audio(`sounds/${drum.id}.wav`).play();
-        setTimeout(()=>drum.classList.remove("playing"), 30);
+        
     }
     if (note == 38) {
         drum = document.getElementById('hat');
-        if(drum.classList.contains("playing")) return;
-        drum.classList.add("playing");
         justPressed(drum);
         new Audio(`sounds/${drum.id}.wav`).play();
-        setTimeout(()=>drum.classList.remove("playing"), 30);
     }
 
 }
