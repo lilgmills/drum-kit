@@ -1,5 +1,11 @@
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: inline;
+}
+
+.help {
+    margin-left: 4vh;
+    color:rgb(172, 172, 172);
 }
 
 .drumpad {
