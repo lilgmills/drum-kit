@@ -1,0 +1,26 @@
+body {
+    display: inline;
+}
+
+.drumpad {
+    display: inline-block;
+    width: 14vh;
+    height: 14vh;
+    margin-left: 3vh;
+    margin-top: 4vh;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 3px;
+}
+
+div:hover {
+    background-color: rgb(235, 233, 233);
+}
+
+.just-pressed {
+    background-color: rgb(175, 175, 175);
+}
+
+
+.just-pressed:hover {
+    background-color: rgb(175, 175, 175);
+}
